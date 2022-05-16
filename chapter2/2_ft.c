@@ -1,10 +1,7 @@
 #include <stdio.h>
 /*
-# 代表预处理
-include 包含头文件
-stdio 标准输入输出
+fathoms convert to feet
 */
-
 int main(void){ //无参数用void
 
     int feet, fathoms;
@@ -12,6 +9,7 @@ int main(void){ //无参数用void
     feet = 6*fathoms;
 
     printf("There is %d feet in %d fathoms.\n",feet,fathoms); //printf 标准输出函数
+    printf("Yes, I said %d feet!",6*fathoms);
     
     return 0;
 }
